@@ -271,6 +271,7 @@ MonoBehaviour:
     - {fileID: 5478304262233808296}
     - {fileID: 1095624556360191454}
     - {fileID: 7476610541355767635}
+    - {fileID: -2002548285806579519}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -298,7 +299,7 @@ MonoBehaviour:
         PeroTools2.GroupGraph.Editor]], mscorlib
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 4
     - Name: 
       Entry: 10
       Data: 0
@@ -308,6 +309,9 @@ MonoBehaviour:
     - Name: 
       Entry: 10
       Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
     - Name: 
       Entry: 13
       Data: 
@@ -581,6 +585,115 @@ MonoBehaviour:
       Entry: 8
       Data: 
   m_Position: {x: 1441.157, y: -294.6666}
+--- !u!114 &-3805033800965250700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8818be80ca407bb6d2175a54b0b57d, type: 3}
+  m_Name: CombineNodeData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 5602402694269775794}
+    - {fileID: -1536520007916857180}
+    - {fileID: -3805033800965250700}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: inputPort
+      Entry: 7
+      Data: 0|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: In
+    - Name: m_Connections
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputPorts
+      Entry: 7
+      Data: 2|PeroTools2.GroupGraph.Editor.PortCollection, PeroTools2.GroupGraph.Editor
+    - Name: m_PortDatas
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.PortCollection+IPortData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: Out
+    - Name: m_Connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: process
+      Entry: 7
+      Data: 6|PeroTools2.GroupGraph.Editor.CombineProcess, PeroTools2.GroupGraph.Editor
+    - Name: nodeData
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+  m_Position: {x: 970.6666, y: 106.66664}
 --- !u!114 &-2163657762732219536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,6 +711,146 @@ MonoBehaviour:
   isOnlyShowBuildTargetPresetNodeContainerOnSelected: 0
   isCheckAfterRefresh: 1
   isCheckBeforeExecute: 1
+--- !u!114 &-2002548285806579519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2697162f1ebb4011963acaa593752457, type: 3}
+  m_Name: RegularNodeData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -8267727565430204569}
+    - {fileID: 6401988288174444467}
+    - {fileID: -2002548285806579519}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: inputPort
+      Entry: 7
+      Data: 0|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: In
+    - Name: m_Connections
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputPorts
+      Entry: 7
+      Data: 2|PeroTools2.GroupGraph.Editor.PortCollection, PeroTools2.GroupGraph.Editor
+    - Name: m_PortDatas
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.PortCollection+IPortData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 4|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: Out
+    - Name: m_Connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: Other
+    - Name: m_Connections
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: process
+      Entry: 7
+      Data: 8|PeroTools2.GroupGraph.Editor.RegularProcess, PeroTools2.GroupGraph.Editor
+    - Name: nodeData
+      Entry: 10
+      Data: 2
+    - Name: m_RegularType
+      Entry: 3
+      Data: 0
+    - Name: m_Regular
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  m_Position: {x: 422.99988, y: 405.3333}
 --- !u!114 &-1903898972295070924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -738,6 +991,111 @@ MonoBehaviour:
       Entry: 8
       Data: 
   m_Position: {x: 631.6289, y: -523.33325}
+--- !u!114 &-1536520007916857180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8818be80ca407bb6d2175a54b0b57d, type: 3}
+  m_Name: CombineNodeData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -3805033800965250700}
+    - {fileID: -1536520007916857180}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: inputPort
+      Entry: 7
+      Data: 0|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: In
+    - Name: m_Connections
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputPorts
+      Entry: 7
+      Data: 2|PeroTools2.GroupGraph.Editor.PortCollection, PeroTools2.GroupGraph.Editor
+    - Name: m_PortDatas
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.PortCollection+IPortData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: Out
+    - Name: m_Connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: process
+      Entry: 7
+      Data: 6|PeroTools2.GroupGraph.Editor.CombineProcess, PeroTools2.GroupGraph.Editor
+    - Name: nodeData
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+  m_Position: {x: 1274.9999, y: 137.02556}
 --- !u!114 &-500124958527154621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1891,6 +2249,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 7476610541355767635}
+    - {fileID: -3805033800965250700}
     - {fileID: 5602402694269775794}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -1947,7 +2306,10 @@ MonoBehaviour:
         PeroTools2.GroupGraph.Editor]], mscorlib
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 13
       Data: 
@@ -1974,11 +2336,147 @@ MonoBehaviour:
       Data: 6|PeroTools2.GroupGraph.Editor.CombineProcess, PeroTools2.GroupGraph.Editor
     - Name: nodeData
       Entry: 10
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
-  m_Position: {x: 590.6667, y: 106.66669}
+  m_Position: {x: 671, y: 106.66675}
+--- !u!114 &6401988288174444467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2697162f1ebb4011963acaa593752457, type: 3}
+  m_Name: RegularNodeData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: -2002548285806579519}
+    - {fileID: 6401988288174444467}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: inputPort
+      Entry: 7
+      Data: 0|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: In
+    - Name: m_Connections
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: outputPorts
+      Entry: 7
+      Data: 2|PeroTools2.GroupGraph.Editor.PortCollection, PeroTools2.GroupGraph.Editor
+    - Name: m_PortDatas
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.PortCollection+IPortData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 4|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: Out
+    - Name: m_Connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|PeroTools2.GroupGraph.Editor.PortCollection+NamePortData, PeroTools2.GroupGraph.Editor
+    - Name: m_PortName
+      Entry: 1
+      Data: Other
+    - Name: m_Connections
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[PeroTools2.GroupGraph.Editor.IGroupNodeData,
+        PeroTools2.GroupGraph.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_Capacity
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: process
+      Entry: 7
+      Data: 8|PeroTools2.GroupGraph.Editor.RegularProcess, PeroTools2.GroupGraph.Editor
+    - Name: nodeData
+      Entry: 10
+      Data: 1
+    - Name: m_RegularType
+      Entry: 3
+      Data: 0
+    - Name: m_Regular
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  m_Position: {x: 719.6666, y: 405.3333}
 --- !u!114 &7476610541355767635
 MonoBehaviour:
   m_ObjectHideFlags: 0
