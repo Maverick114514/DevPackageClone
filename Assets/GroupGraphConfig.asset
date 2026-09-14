@@ -584,6 +584,9 @@ MonoBehaviour:
     - Name: m_SubGraph
       Entry: 10
       Data: 4
+    - Name: m_SubGraphGuid
+      Entry: 1
+      Data: 8754f03efd86eb64697a0d745089a8e2
     - Name: m_PreviewPort
       Entry: 1
       Data: Out
@@ -1001,7 +1004,6 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 1095624556360191454}
-    - {fileID: 0}
     - {fileID: -1903898972295070924}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -1060,8 +1062,8 @@ MonoBehaviour:
       Entry: 12
       Data: 1
     - Name: 
-      Entry: 10
-      Data: 1
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -1113,7 +1115,7 @@ MonoBehaviour:
       Data: 8|PeroTools2.GroupGraph.Editor.RegularProcess, PeroTools2.GroupGraph.Editor
     - Name: nodeData
       Entry: 10
-      Data: 2
+      Data: 1
     - Name: m_RegularType
       Entry: 3
       Data: 0
@@ -1943,6 +1945,9 @@ MonoBehaviour:
     - Name: m_SubGraph
       Entry: 10
       Data: 3
+    - Name: m_SubGraphGuid
+      Entry: 1
+      Data: c6cc1be00dcfbfd4fb4f06e177ab8fdb
     - Name: m_PreviewPort
       Entry: 1
       Data: Out
