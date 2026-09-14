@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.prpr.groupgraph": "file:D:/Projects/GroupGraph",
+    "com.prpr.perograph": "file:D:/Projects/PeroGraph",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.ads": "4.4.2",
