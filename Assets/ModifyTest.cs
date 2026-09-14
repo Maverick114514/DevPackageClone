@@ -11,13 +11,6 @@ public class ModifyTest : MonoBehaviour
         int doSth0 = 0;
 
         
-        
-        
-        
-        
-        
-        
-        
     }
 
     // Update is called once per frame
