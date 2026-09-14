@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: texture
   m_Data:
     m_SerializedData: []
-  m_GUID: 01f77ceea5ea1404db8f8a149738c07c
+  m_GUID: 25c848712c6b664429ec00ef40d5634b
   m_SerializeEntries:
   - m_GUID: 57781b52934380d4d972b45e29818f08
     m_Address: Texture_Remove
@@ -33,5 +33,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 14bcebb8797de6343bb063eb8d2ce816, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 2ed06f02d9202b24cb4bed4a293738cd, type: 2}
-    - {fileID: 11400000, guid: 2acce10145c112a4eb5d4fa859be90cc, type: 2}
+    - {fileID: 11400000, guid: 63977f5eb62cd894aa9d279b2ce43444, type: 2}
+    - {fileID: 11400000, guid: 277574666426f9d448ddc52bad70985a, type: 2}
