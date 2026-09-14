@@ -699,7 +699,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  m_Position: {x: -461.74265, y: 408.0159}
+  m_Position: {x: -287.74945, y: -741.00006}
 --- !u!114 &-4652560644938684112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +863,10 @@ MonoBehaviour:
         PeroTools2.GroupGraph.Editor]], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 10
       Data: 0
@@ -1288,6 +1291,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 3445155412168033976}
+    - {fileID: -4275003732109544984}
     - {fileID: 1032386972535894322}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -1344,7 +1348,10 @@ MonoBehaviour:
         PeroTools2.GroupGraph.Editor]], mscorlib
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 13
       Data: 
@@ -1371,7 +1378,7 @@ MonoBehaviour:
       Data: 6|PeroTools2.GroupGraph.Editor.CombineProcess, PeroTools2.GroupGraph.Editor
     - Name: nodeData
       Entry: 10
-      Data: 1
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
@@ -1394,6 +1401,7 @@ MonoBehaviour:
     ReferencedUnityObjects:
     - {fileID: -8267727565430204569}
     - {fileID: -1903898972295070924}
+    - {fileID: 4831000369651668043}
     - {fileID: 1095624556360191454}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -1450,13 +1458,16 @@ MonoBehaviour:
         PeroTools2.GroupGraph.Editor]], mscorlib
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 6
       Data: 
     - Name: 
       Entry: 10
       Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
     - Name: 
       Entry: 13
       Data: 
@@ -1508,7 +1519,7 @@ MonoBehaviour:
       Data: 8|PeroTools2.GroupGraph.Editor.RegularProcess, PeroTools2.GroupGraph.Editor
     - Name: nodeData
       Entry: 10
-      Data: 2
+      Data: 3
     - Name: m_RegularType
       Entry: 3
       Data: 0
@@ -2285,7 +2296,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  m_Position: {x: -375.33334, y: 101.666626}
+  m_Position: {x: -573.66675, y: -690.4856}
 --- !u!114 &4831000369651668043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2322,7 +2333,10 @@ MonoBehaviour:
         PeroTools2.GroupGraph.Editor]], mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 10
       Data: 0
@@ -2646,4 +2660,4 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  m_Position: {x: -200.84982, y: 604.061}
+  m_Position: {x: -7.999939, y: -740.6667}
