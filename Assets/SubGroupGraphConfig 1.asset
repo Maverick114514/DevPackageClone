@@ -300,6 +300,9 @@ MonoBehaviour:
     - Name: m_SubGraph
       Entry: 10
       Data: 2
+    - Name: m_SubGraphGuid
+      Entry: 1
+      Data: 18a3fe24d27567a4aa4331ecfe3e1dd7
     - Name: m_PreviewPort
       Entry: 1
       Data: Out
