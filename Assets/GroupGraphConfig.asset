@@ -446,7 +446,7 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  m_Position: {x: 1007.9165, y: -170}
+  m_Position: {x: 1008.9728, y: -169.99995}
 --- !u!114 &-4652560644938684112
 MonoBehaviour:
   m_ObjectHideFlags: 0
