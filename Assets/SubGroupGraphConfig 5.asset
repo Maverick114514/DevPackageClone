@@ -173,10 +173,7 @@ MonoBehaviour:
         PeroTools2.GroupGraph.Editor]], mscorlib
     - Name: 
       Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 10
-      Data: 0
+      Data: 1
     - Name: 
       Entry: 10
       Data: 0
